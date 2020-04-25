@@ -1,0 +1,9 @@
+<h1>PLAYERS</h1>
+
+<ul class="details">
+  <li *ngFor="let detail of details">
+    <img src="{{detail.image}}" alt="image{{detail.name}}"/>
+    <h3> {{detail.name}} </h3>
+    <p> {{detail.strength}}</p>
+  </li>
+</ul>

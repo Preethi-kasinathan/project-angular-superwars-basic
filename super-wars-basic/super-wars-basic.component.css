@@ -1,0 +1,38 @@
+.details
+{
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+ul
+{
+  list-style: none;
+}
+
+li
+{
+  margin-top: 10px;
+  width: 15%;
+  border: 1px solid;
+}
+
+form
+{
+  align-self: flex-start;
+
+}
+
+img
+{
+  margin-top: 15px;
+  height: 100px;
+  width: 100px;
+}
+
+h1
+{
+  text-align: center;
+}
